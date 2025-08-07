@@ -17,4 +17,7 @@ function checkGuess() {
   }
 }
 EOF
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ead3a849e09ffb745dee800534e663001b4fdfb
