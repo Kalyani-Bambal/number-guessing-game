@@ -1,19 +1,33 @@
-cat <<EOF > style.css
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
 }
-.container {
-  background: white;
-  padding: 20px;
-  display: inline-block;
+
+.game-container {
+  background-color: white;
+  padding: 40px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
+
 input {
   padding: 10px;
-  margin: 10px;
+  width: 70%;
+  margin-bottom: 10px;
+  font-size: 16px;
 }
-EOF
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
