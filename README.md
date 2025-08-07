@@ -62,6 +62,6 @@ number-guessing-game/
 ### 🎥 Output Demo
 
 <p align="center">
-  <img src="images/output.png" alt="Demo" width="700">
+  <img src="images/output.PNG" alt="Demo" width="700">
 </p>
 
